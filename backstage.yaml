@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: autotester-task
+  description: 'Existing repository autotester-task onboarded to the Backstage catalog.'
+  annotations:
+    repo: roihunter/autotester-task
+  labels:
+    CostCenter: ROIHUNTER
+    Environment: stage
+    Name: autotester-task
+    Owner: general-rh
+    Department: ROIHUNTER
+    CreatedBy: Backstage
+spec:
+  type: service
+  owner: general-rh
+  system: roihunter
